@@ -19,7 +19,7 @@ from constructs import Construct
 TARGET_VPC_NAME = "docdb-test-vpc"
 
 dirname = os.path.dirname(__file__)
-env_london = Environment(account="712464346497", region="eu-west-2")
+env_london = Environment(account="<TODO>", region="eu-west-2") # TODO: fill in account
 
 
 class EC2InstanceStack(Stack):
