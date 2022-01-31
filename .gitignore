@@ -110,6 +110,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# additional cdk stuff
+.vscode/
+cdk.out/
+node_modules/
+cdk.context.json
+
 # Spyder project settings
 .spyderproject
 .spyproject
